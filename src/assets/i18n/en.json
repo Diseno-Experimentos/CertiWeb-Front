@@ -1,0 +1,383 @@
+{
+    "pageNotFound":{
+        "title":"Page not found",
+        "message":"Sorry, the page you are looking for does not exist.",
+        "returnHome":"Return to the home page"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Spanish"
+    },
+    "toolbar": {
+      "certifiedCars": "Certified Cars for Sale",
+      "certifyCar": "Certify your Car",
+      "userMenu": "User Menu",
+      "menu": "Menu",
+      "profile": "Profile",
+      "history": "History",
+      "support": "Support",
+      "termsOfUse": "Terms of Use",
+      "logout": "Logout",
+      "toolbar": {
+        "home": "Home",
+        "cars": "Cars",
+        "support": "Support",
+        "termsOfUse": "Terms of Use",
+        "adminCertification": "Admin Certification",
+        "logout": "Logout"
+      }
+    },
+    "adminCertification": {
+      "processTitle": "Certification Process",
+      "stepsCompleted": "{completedSteps}/3 steps completed",
+      "resetProcess": "Reset Process",
+      "logout": "Logout",
+      "step1": "Accept Reservation",
+      "step2": "Save Information",
+      "step3": "Upload PDF",
+      "step1Title": "Accept Reservation",
+      "step1Completed": "Completed",
+      "step2Title": "Complete and Save Information",
+      "step2CarId": "Car ID: {createdCarId}",
+      "step2Locked": "Locked",
+      "step3Title": "Upload Technical Report PDF",
+      "step3Locked": "First save car information",
+      "pdfUploadLocked": "PDF Upload Locked",
+      "completePreviousSteps": "Complete previous steps to enable PDF upload",
+      "alertReservationNeeded": "You must accept a reservation first",
+      "alertCarSaved": "Vehicle information saved successfully. Now you can upload the PDF.",
+      "alertSaveCarError": "Error saving vehicle information: ",
+      "alertPdfUploaded": "PDF uploaded successfully to the database",
+      "alertPdfUploadError": "Error uploading PDF: "
+    },
+    "brandPhrase": {
+      "alt": "Brand slogan image"
+    },
+    "search-filters": {
+      "title": "Find your perfect car",
+      "brand": "Brand",
+      "model": "Model",
+      "selectBrand": "Select brand",
+      "selectModel": "Select model",
+      "clear": "Clear filters",
+      "search": "Search"
+    },
+    "acceptReservation": {
+      "pendingReservations": "Pending Reservations",
+      "loadingReservations": "Loading reservations...",
+      "retry": "Retry",
+      "noPendingReservations": "No Pending Reservations",
+      "allProcessed": "All reservations have been processed or no new reservations are available.",
+      "notAvailable": "N/A",
+      "brand": "Brand",
+      "model": "Model",
+      "license": "License",
+      "dateTime": "Date & Time",
+      "price": "Price",
+      "status": "Status",
+      "acceptReservation": "Accept Reservation"
+    },
+    "adForm": {
+    "creationTitle": "Vehicle Ad Creation",
+    "creationSubtitle": "Complete the details to publish your vehicle on CertiWeb.",
+    "formProgress": "Form Progress",
+    "vehicleAdData": "Vehicle Ad Data",
+    "adTitle": "Ad Title",
+    "editable": "Editable",
+    "adTitlePlaceholder": "E.g.: Toyota Corolla 2021 Full Equipment",
+    "adTitleHint": "An attractive and descriptive title helps sell faster.",
+    "owner": "Owner",
+    "ownerEmail": "Owner's Email",
+    "autoCompleted": "Auto-completed",
+    "ownerPlaceholder": "Owner's name (auto-completed)",
+    "ownerEmailPlaceholder": "Owner's email (auto-completed)",
+    "year": "Year",
+    "yearPlaceholder": "E.g.: 2021",
+    "yearHint": "Year of manufacture of the vehicle.",
+    "brand": "Brand",
+    "brandPlaceholder": "Vehicle brand (auto-completed)",
+    "model": "Model",
+    "modelPlaceholder": "Vehicle model (auto-completed)",
+    "detailedDescription": "Detailed Description",
+    "descriptionPlaceholder": "Describe the features, condition, and any relevant details of your vehicle...",
+    "characters": "characters",
+    "descriptionHint": "Be specific. Include extras, condition, maintenance, etc.",
+    "saveVehicleInfo": "Save Vehicle Information",
+    "formComplete": "Form Complete!",
+    "formIncomplete": "Form Incomplete",
+    "allFieldsCompleted": "All required fields are filled. You can save the information.",
+    "completeEditableFields": "Please complete all editable fields to continue."
+  },
+  "uploadTechReport": {
+    "title": "Upload Technical Report",
+    "subtitle": "Upload the PDF document of the technical report for car ID: {carId}"
+  },
+  "uploadZone": {
+    "selectOrDrag": "Select or drag your PDF file",
+    "supportedFormats": "Supported formats: PDF • Max size: 10MB",
+    "selectFile": "Select File",
+    "features": {
+      "secure": "Secure and encrypted",
+      "fast": "Fast processing",
+      "validation": "Automatic validation"
+    }
+  },
+  "fileState": {
+    "processing": "Processing file...",
+    "fileType": "PDF Document",
+    "validFile": "Valid file",
+    "invalidFormat": "Invalid format",
+    "base64Generated": "Base64 generated ({size} KB)",
+    "removeFile": "Remove file"
+  },
+  "preview": {
+    "title": "Document Preview",
+    "description": "PDF document converted to Base64 and ready to save",
+    "actions": {
+      "download": "Download",
+      "open": "Open"
+    }
+  },
+  "uploadButton": {
+    "label": "Upload PDF to Database"
+  },
+  "successMessage": {
+    "title": "File processed successfully!",
+    "description": "The technical report is ready to be saved in the database"
+  },
+  "brandSearch": {
+    "title": "Most searched brands",
+    "subtitle": "Discover vehicles from the most popular brands among our users"
+  },
+  "brandCard": {
+    "logoAlt": "Logo of {brand}",
+    "viewVehicles": "View vehicles"
+  },
+  "navigation": {
+    "backToHome": "Back to home"
+  },
+  "banner": {
+    "title": "We know your car is important",
+    "description": "Certify your car and get an inspection that will add more value and confidence when selling it.",
+    "buttonText": "Get your certificate!",
+    "carAltText": "Red Kia Rio"
+  },
+  "welcome": {
+    "title": "Welcome back!",
+    "subtitle": "Check out these recently certified cars"
+  },
+  "car": {
+    "viewDetails": "View details"
+  },
+  "navigation2": {
+    "seeMoreModels": "See more models"
+  },
+  "carColors": {
+    "metallicBlue": "Metallic Blue",
+    "gray": "Gray",
+    "red": "Red",
+    "pearlWhite": "Pearl White",
+    "quantumGray": "Quantum Gray",
+    "iridiumSilver": "Iridium Silver"
+  },
+  "calendar": {
+    "title": "BOOK INSPECTION TIME",
+    "selectDate": "Select a date",
+    "selectTime": "Select a time",
+    "weekdaysNote": "Only business days (Monday to Friday)",
+    "timeSlotsNote": "Available times from Monday to Friday",
+    "selectedDateTime": "Selected date and time:",
+    "confirmButton": "Confirm Reservation"
+  },
+  "vehicleSpec": {
+    "uploadPhoto": "Upload Vehicle Photo",
+    "vehiclePhoto": "Vehicle Photo",
+    "selectFile": "Select JPG File",
+    "uploadImage": "Upload Image",
+    "fileHint": "JPG files only. Max 1MB.",
+    "uploadError": "Upload error",
+    "vehicleData": "Vehicle Data",
+    "brand": "Brand",
+    "selectBrand": "Select a brand",
+    "model": "Model",
+    "modelPlaceholder": "E.g.: Corolla, Yaris, Hilux",
+    "licensePlate": "License Plate",
+    "platePlaceholder": "ABC-123",
+    "plateFormat": "Format: ABC-123",
+    "plateErrorFormat": "Invalid plate format.",
+    "plateIncomplete": "Incomplete plate.",
+    "ownerEmail": "Owner's Email",
+    "ownerEmailPlaceholder": "Enter your email address",
+    "sellingPrice": "Selling Price (PEN)",
+    "pricePlaceholder": "E.g.: 50000"
+  },
+  "footer": {
+    "copyright": "© 2025 Certiweb.com. All rights reserved.",
+    "terms": "Terms and Conditions"
+  },
+  "carDetail": {
+    "backButton": "Back to List",
+    "loading": "Loading car details...",
+    "error": "Error loading car details:",
+    "tryAgain": "Try Again",
+    "noImageAlt": "No Image",
+    "brand": "Brand:",
+    "model": "Model:",
+    "year": "Year:",
+    "ownerInfo": "Owner Information",
+    "owner": "Owner:",
+    "licensePlate": "License Plate:",
+    "description": "Description",
+    "noDescription": "No detailed description available.",
+    "techCert": "Technical Certification",
+    "viewCert": "View Certification",
+    "downloadCert": "Download Certification",
+    "noCert": "No certification PDF available for this vehicle.",
+    "contactSeller": "Contact Seller",
+    "notFound": "Car details not found.",
+    "emailSubject": "Interest in car: {model} {brand}",
+    "emailBody": "Dear Seller,\n\nI am interested in your car {brand} {model} with license plate {licensePlate}.\n\nI would like to get more information about this vehicle.\n\nBest regards,",
+    "noEmailWarning": "Could not contact seller. No email available."
+  },
+  "carList": {
+    "title": "Certified Cars",
+    "loading": "Loading...",
+    "error": "Error loading cars:",
+    "empty": "No certified cars available at the moment.",
+    "year": "Year:",
+    "noDescription": "No description available",
+    "owner": "Owner:",
+    "viewDetails": "View Details"
+  },
+  "historyItem": {
+    "imageAlt": "Vehicle image",
+    "noName": "Name not available",
+    "dateTime": "Date and Time:",
+    "price": "Price:",
+    "priceNotSpecified": "Not specified",
+    "status": "Status:",
+    "statusNotSpecified": "Not specified"
+  },
+  "historyPage": {
+    "title": "Reservation History",
+    "loading": "Loading history...",
+    "emptyTitle": "No reservations in your history",
+    "exploreButton": "Explore Vehicles"
+  },
+  "supportPage": {
+    "title": "Support Page",
+    "welcomeMessage": "Welcome to our support page. Here you'll find help to solve your doubts.",
+    "contactTitle": "You can contact us through:",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "scheduleLabel": "Business hours",
+    "scheduleTime": "Monday to Friday from 9:00 to 18:00",
+    "faqMessage": "You can also check our Frequently Asked Questions (FAQ) section for quick answers.",
+    "backButton": "Back to Home"
+  },
+  "termsPage": {
+    "title": "Terms and Conditions of Use",
+    "lastUpdate": "Last update: January 2024",
+    "introText": "Please read our terms and conditions carefully before using our services.",
+    "section1": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using {service} (the \"Service\"), you agree to be bound by these Terms and Conditions of Use (\"Terms\"). If you disagree with any part of the terms, you may not access the Service."
+    },
+    "section2": {
+      "title": "Service Usage",
+      "content": "The Service is provided to facilitate vehicle information certification and management. You must not use the service for any illegal or unauthorized purpose."
+    },
+    "section3": {
+      "title": "User Accounts",
+      "content": "When you create an account with us, you must provide us with accurate, complete, and up-to-date information at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service."
+    },
+    "backButton": "Back to Home"
+  },
+  "loginPage": {
+    "title": "Login",
+    "subtitle": "Access your CertiWeb account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "loginButton": "Login",
+    "noAccountPrompt": "Don't have an account?",
+    "registerButton": "Register"
+  },
+  "profilePage": {
+    "title": "User Profile",
+    "loading": "Loading data...",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "planLabel": "Plan",
+    "backButton": "Back to home"
+  },
+  "registerPage": {
+    "title": "Create your account",
+    "subtitle": "Complete the form to access CertiWeb",
+    "success": "Registration successful!",
+    "steps": {
+      "personalInfo": "Personal Information",
+      "selectPlan": "Select Plan",
+      "payment": "Payment"
+    },
+    "formLabels": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "Enter your email address",
+      "password": "Create a secure password",
+      "cardNumber": "1234 5678 9012 3456",
+      "expiryDate": "MM/YY",
+      "cvv": "123"
+    },
+    "plans": {
+      "free": "Free Plan",
+      "monthly": "Monthly Plan",
+      "yearly": "Annual Plan",
+      "forever": "forever",
+      "month": "month",
+      "year": "year",
+      "save16": "Save 16%"
+    },
+    "planFeatures": {
+      "contactBuyers": "Contact potential buyers",
+      "catalogView": "Basic catalog view",
+      "noCarReservations": "No car reservations",
+      "limitedFeatures": "Limited features",
+      "fullAccess30": "Full access for 30 days",
+      "techSupport": "Technical support",
+      "updatesIncluded": "Regular updates included",
+      "fullAccess365": "Full access for 365 days",
+      "prioritySupport": "Priority support",
+      "exclusiveFeatures": "Exclusive features"
+    },
+    "recommended": "Recommended",
+    "paymentNote": {
+      "freePlan": "You have selected the Free Plan. No payment information is required."
+    },
+    "paymentSummary": {
+      "title": "Order Summary",
+      "selectedPlan": "Selected Plan",
+      "total": "Total"
+    },
+    "buttons": {
+      "previous": "Previous",
+      "next": "Next",
+      "complete": "Complete Registration",
+      "login": "Log In"
+    },
+    "haveAccount": "Already have an account?",
+    "errors": {
+      "missingPayment": "Payment information is required for the selected plan"
+    }
+  }
+}
