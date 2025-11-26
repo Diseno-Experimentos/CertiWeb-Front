@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-import { authService } from '@/public/services/auth.service';
+import { authService } from '../../services/auth.service.js';
 import { useI18n } from 'vue-i18n';
-import LanguageSwitcherComponent from '@/public/components/language-switcher/language-switcher.component.vue';
+import LanguageSwitcherComponent from '../../components/language-switcher/language-switcher.component.vue';
 
 const router = useRouter();
 const { t } = useI18n();

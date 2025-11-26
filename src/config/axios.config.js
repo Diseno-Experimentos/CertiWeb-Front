@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { environment } from '../environments/environment.development.js';
+import { environment } from '../environments/environment.js';
 
 /**
  * Axios configuration for the CertiWeb application

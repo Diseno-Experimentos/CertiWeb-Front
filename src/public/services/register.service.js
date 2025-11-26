@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { environment } from '@/environments/environment.development';
+import { environment } from '../../environments/environment.js';
 
 const API_URL = `${environment.serverBasePath}/users`;
 

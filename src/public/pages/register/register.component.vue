@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
-import LanguageSwitcherComponent from '@/public/components/language-switcher/language-switcher.component.vue';
-import { authService } from '@/public/services/auth.service';
+import LanguageSwitcherComponent from '../../components/language-switcher/language-switcher.component.vue';
+import { authService } from '../../services/auth.service.js';
 
 const router = useRouter();
 const { t } = useI18n();

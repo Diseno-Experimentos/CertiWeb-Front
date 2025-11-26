@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
 import { useRouter } from 'vue-router';
-import certiwebLogo from '@/assets/certiweb.png';
+import certiwebLogo from '../../../../assets/certiweb.png';
 import { userService } from '../../../services/user.service';
 import languageSwitcherComponent from '../../../../public/components/language-switcher/language-switcher.component.vue';
 import { useI18n } from 'vue-i18n';
