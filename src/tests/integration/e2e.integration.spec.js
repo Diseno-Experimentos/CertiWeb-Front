@@ -10,7 +10,7 @@ import { environment } from "../../environments/environment.js";
 const BACKEND_URL = environment.serverBasePath;
 const TEST_TIMEOUT = 60000;
 
-// Test user data - will be created and cleaned up
+// Test user data
 const testUser = {
   name: "Test Integration User",
   email: `test-${Date.now()}@integration.test`,
