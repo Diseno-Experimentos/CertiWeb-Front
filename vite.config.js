@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/CertiWeb-Front/',
+  base: '/', // Configuración para producción (no GitHub Pages)
   server: {
     port: 5173 
   },
