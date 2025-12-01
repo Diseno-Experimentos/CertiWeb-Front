@@ -33,11 +33,13 @@ Crear un marketplace de confianza donde cada vehículo cuente con una certificac
 ### Problemáticas Identificadas
 
 1. **Falta de Transparencia en Vehículos Usados**
+
    - Los compradores enfrentan incertidumbre sobre el estado real del vehículo
    - Información técnica poco confiable o inexistente
    - Riesgo de fraude y ocultación de fallas mecánicas
 
 2. **Proceso de Certificación Complejo**
+
    - Procedimientos engorrosos y poco digitalizados
    - Falta de trazabilidad en el historial de inspecciones
    - Dificultad para agendar y gestionar citas de certificación
@@ -66,19 +68,23 @@ El proyecto sigue principios de Domain-Driven Design (DDD) con una clara separac
 **Responsabilidad**: Gestión del ciclo de vida de certificaciones vehiculares
 
 **Entidades Principales**:
+
 - `Car`: Representa un vehículo con sus datos técnicos y certificación
 - `Reservation`: Reserva de cita para inspección técnica
 
 **Servicios**:
+
 - `carService`: CRUD de vehículos y certificaciones
 - `reservationService`: Gestión de citas de inspección
 
 **Componentes**:
+
 - `admin-certification`: Panel administrativo de certificaciones
 - `reservation`: Sistema de agendamiento de inspecciones
 - `dashboard`: Vista general de certificaciones activas
 
 **Casos de Uso**:
+
 - Crear nueva certificación vehicular
 - Agendar inspección técnica
 - Aprobar/rechazar certificaciones
@@ -89,18 +95,22 @@ El proyecto sigue principios de Domain-Driven Design (DDD) con una clara separac
 **Responsabilidad**: Autenticación, autorización y perfil de usuarios
 
 **Entidades Principales**:
+
 - `User`: Usuario del sistema (propietario, comprador, administrador)
 
 **Servicios**:
+
 - `authService`: Login, registro y gestión de sesiones
 - `userService`: Operaciones sobre datos de usuario
 
 **Componentes**:
+
 - `login`: Autenticación de usuarios
 - `register`: Registro de nuevos usuarios
 - `profile`: Gestión de perfil personal
 
 **Casos de Uso**:
+
 - Registro de nuevos usuarios
 - Login con diferentes roles (user/admin)
 - Gestión de perfil y preferencias
@@ -111,11 +121,13 @@ El proyecto sigue principios de Domain-Driven Design (DDD) con una clara separac
 **Responsabilidad**: Catálogo y visualización de vehículos certificados
 
 **Componentes**:
+
 - `car-list`: Catálogo de vehículos disponibles
 - `car-detail`: Vista detallada de cada vehículo
 - `history`: Historial de transacciones y certificaciones
 
 **Casos de Uso**:
+
 - Explorar catálogo de vehículos certificados
 - Ver detalles técnicos y certificaciones
 - Filtrar y buscar vehículos
@@ -126,11 +138,13 @@ El proyecto sigue principios de Domain-Driven Design (DDD) con una clara separac
 **Responsabilidad**: Servicios y utilidades transversales
 
 **Servicios**:
+
 - `baseService`: Cliente HTTP base con interceptores
 - `imgbbService`: Integración con API de almacenamiento de imágenes
 - `historyService`: Gestión de historial de operaciones
 
 **Infraestructura**:
+
 - Configuración de axios
 - Gestión de variables de entorno
 - Internacionalización (i18n)
@@ -287,21 +301,21 @@ Ver la guía completa en [`VERCEL-DEPLOYMENT.md`](./VERCEL-DEPLOYMENT.md)
 ```md
 CertiWeb-Front/
 ├── src/
-│   ├── certifications/        # Certification Context
-│   │   ├── components/
-│   │   ├── model/
-│   │   └── services/
-│   ├── public/                # User Management & Marketplace
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── services/
-│   ├── shared/                # Shared Context
-│   │   └── services/
-│   ├── config/                # Configuración
-│   ├── environments/          # Variables de entorno
-│   ├── router/                # Routing
-│   └── tests/                 # Tests
-├── .github/workflows/         # CI/CD
+│ ├── certifications/ # Certification Context
+│ │ ├── components/
+│ │ ├── model/
+│ │ └── services/
+│ ├── public/ # User Management & Marketplace
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── services/
+│ ├── shared/ # Shared Context
+│ │ └── services/
+│ ├── config/ # Configuración
+│ ├── environments/ # Variables de entorno
+│ ├── router/ # Routing
+│ └── tests/ # Tests
+├── .github/workflows/ # CI/CD
 ├── Dockerfile
 ├── vercel.json
 └── package.json
